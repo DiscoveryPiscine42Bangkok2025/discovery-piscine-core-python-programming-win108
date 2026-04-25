@@ -3,9 +3,9 @@
 num =  "2 8 9 48 8 22 -12 2"
 array = list(map(int, num.split()))
 res = []
-
+x = array[0]
 print(array)
 for i in range(len(array)):
     if array[i]>5:
-        res.append(array[i] + 2)
+        res.append(array[i] + x)
 print(res)
