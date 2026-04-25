@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
 
-array = list(input().split())
-print("Number of parameters:",len(array))
+import sys
+
+def main():
+    res = sys.argv[1:]
+
+    print("Number of parameters:", len(res))
+
+main()
