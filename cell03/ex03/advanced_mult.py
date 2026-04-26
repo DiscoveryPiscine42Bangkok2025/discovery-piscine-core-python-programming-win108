@@ -8,7 +8,7 @@ if len(sys.argv)>1:
 
 i = 0
 while i<11 :
-    line = "Table de " + str(i) + ":"
+    line = "Table de " + str(i) + ":" 
     j=0
     while j<11:
         line += " "+str(j*i)
